@@ -638,11 +638,11 @@ union pd_battery_supply_pdo_sink {
 #define PD_CONVERT_MA_TO_AUGMENTED_PDO_CURRENT(c) ((c) / 50)
 
 /**
- * @brief Convert millivolts to Augmented PDO Voltage in 100mV units
+ * @brief Convert millivolts to Augmented PDO Voltage in 20mV units
  *
  * @param v Voltage in millivolts
  */
-#define PD_CONVERT_MV_TO_AUGMENTED_PDO_VOLTAGE(v) ((v) / 100)
+#define PD_CONVERT_MV_TO_AUGMENTED_PDO_VOLTAGE(v) ((v) / 20)
 
 /**
  * @brief Convert an Augmented PDO Current from 50mA units to milliamps
